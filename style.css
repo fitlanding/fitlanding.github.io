@@ -1,0 +1,264 @@
+@font-face {
+    font-family: TTDugs;
+    src: url('TTDrugs-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway Extra Light';
+    src: url('Raleway-ExtraLight.eot');
+    src: url('Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('Raleway-ExtraLight.woff') format('woff'),
+    url('Raleway-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url('Raleway-Thin.eot');
+    src: url('Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Raleway-Thin.woff') format('woff'),
+    url('Raleway-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    -webkit-tap-highlight-color: transparent!important;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+a:hover {
+    text-decoration:none;
+    color: black;
+}
+
+a:focus {
+    text-decoration:none;
+    color: black;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+
+.my-navbar {
+    font-family: 'Raleway Extra Light', sans-serif;
+}
+
+.my-header-text {
+    font-family: TTDugs, sans-serif;
+    font-size: 20px!important;
+    font-weight: 900!important;
+}
+
+.my-header-text-span {
+    opacity: 1;
+    font-size: 16px;
+}
+
+.my-hr {
+    border-color: #e74e3e;
+}
+
+.my-button {
+    background-color: #e74e3e;
+    font-family: 'Raleway Extra Light', cursive, sans-serif;
+}
+
+
+.section-heading {
+    font-family: TTDugs, sans-serif;
+}
+
+.section-heading-span {
+    font-family: Arial, sans-serif;
+}
+
+.my-hr-primary {
+    border-color: #e74e3e;
+}
+
+.my-service-box {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.service-box{
+    -webkit-transition: all 200ms ease-in-out!important;
+    -ms-transition: all 200ms ease-in-out!important;
+    -moz-transition: all 200ms ease-in-out!important;
+    -o-transition: all 200ms ease-in-out!important;
+    transition: all 200ms ease-in-out!important;
+}
+
+.service-box:hover {
+    -webkit-transform: scale(1.15)!important;
+    -moz-transform: scale(1.15)!important;
+    -ms-transform: scale(1.15)!important;
+    -o-transform: scale(1.15)!important;
+    transform: scale(1.15)!important;
+}
+
+.my-service-box-image {
+    padding-top: 10px; padding-bottom: 5px;
+}
+
+.service-box-header {
+    font-family: TTDugs, sans-serif;
+}
+
+.text-muted {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#homeHeading {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+#fit {
+    background-color: #ececec;
+}
+
+.my-fit-about {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.my-hr-left {
+    border-color: #e74e3e;
+    margin-left: 0;
+}
+
+.my-slide {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+@media screen and (max-width: 768px){
+    .my-photo-padding{
+        padding-bottom: 100px;
+    }
+}
+
+
+.my-calendar-subheading {
+    font-family: TTDugs, sans-serif;
+    padding-bottom: 20px;
+}
+
+
+#contact {
+    background-color: #f2f3f7;
+}
+
+.my-contact {
+    color: #e74e3e;
+    font-family: Arial, sans-serif;
+}
+
+.my-contact-left {
+    padding-left: 50px;
+}
+
+.contact-detail {
+    font-family: 'Roboto', sans-serif;
+}
+
+iframe, object, embed{
+    max-width: 100%;
+}
+
+iframe {
+    border:0
+}
+
+
+.my-footer {
+    margin-top: 25px;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: left;
+    color: white;
+    background-color: #202020; }
+
+form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #eb6a5c;
+    color: white;
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+form label {
+    color: #eb6a5c;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+input {
+    padding-top: 10px;
+    width: 90%;
+    padding-right: 27px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.my-submit-button {
+    background: transparent; border: 0;margin-left: -27px;
+}
+
+.my-socials-header {
+    color: #eb6a5c;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.my-socials {
+    width: 25px; height: 25px;display: inline-block; margin-left: 10px; margin-right: 10px;
+
+    -webkit-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.my-socials:hover {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.my-copyright {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #868686;
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item:hover, .nav-item:focus, .nav-item:active {
+        background-color: transparent!important;
+    }
+}
+
